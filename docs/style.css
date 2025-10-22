@@ -1,1 +1,11 @@
+/* Style for each suggestion in the dropdown */
+.result-item {
+  padding: 0.75rem 1rem; /* 12px top/bottom, 16px left/right */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
 
+/* Hover effect for a better user experience */
+.result-item:hover {
+  background-color: #eff6ff; /* A light blue, Tailwind's blue-50 */
+}
